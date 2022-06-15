@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Enter the details of the product to be added: </h2>
+<form action=" ">
+<p>Product: <p>
+<input type="text" name="product">
+<p>Price<p>
+<input type="text" name="price">
+<p>Description</p>
+<textarea rows="3" cols="21" name="description"></textarea>
+
+
+</form>
+</body>
+</html>

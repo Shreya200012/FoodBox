@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Login Form Example</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'>
+  <link rel="stylesheet" href="css/style1.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="login-form">
+  <form action="LoginController" method="post">
+    <h1>Login</h1>
+    <div class="content">
+      <div class="input-field">
+        <input type="text" placeholder="UserName" name="username" autocomplete="nope">
+      </div>
+      <div class="input-field">
+        <input type="password" placeholder="Password" name="password" autocomplete="new-password">
+      </div>
+       <div class="input-field">
+        <input type="submit" value="login">
+      </div>
+    </div>
+   <!-- <div class="action">
+      <button>Register</button>
+      <button >Sign in</button>
+    </div>-->
+  </form>
+</div>
+<!-- partial -->
+<script  src="js/script1.js"></script>
+
+</body>
+</html>
